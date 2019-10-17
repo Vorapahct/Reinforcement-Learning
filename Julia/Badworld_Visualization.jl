@@ -1,4 +1,4 @@
-function render(mdp::SimpleGridWorldIordan, step::Union{NamedTuple,Dict};
+function render(mdp::Badworld, step::Union{NamedTuple,Dict};
                 color = s->reward(mdp, s)
                )
 
